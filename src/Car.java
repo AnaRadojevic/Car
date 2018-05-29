@@ -5,6 +5,7 @@ public class Car {
     int minSpeed = 10;
     double weight = 1000;
     boolean isTheCarOn = false;
+
     String licence = "ABC-123";
     char condition = 'A';
     double currentPrice = 3000;
@@ -27,6 +28,7 @@ public class Car {
 
     public Car(int maxSpeed, int minSpeed, double weight, boolean isTheCarOn,
             String licence, char condition, double currentPrice, int mileagePassed) {
+
 
         this.maxSpeed = maxSpeed;
         this.minSpeed = minSpeed;
@@ -117,4 +119,5 @@ public class Car {
     public void changeMaxPassengers  (int newMax)  {
         this.maxPassengers  = newMax;
     }
+
 }
